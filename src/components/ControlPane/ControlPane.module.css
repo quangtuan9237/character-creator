@@ -24,3 +24,17 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media (max-width: 425px) {
+  .controlPane {
+    margin-bottom: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 90vw;
+  }
+  .metadata {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 16px;
+  }
+}
